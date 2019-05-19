@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/toolbar">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/aboutitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/applogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="?attr/actionBarSize"
+            android:src="@mipmap/ic_app_logo" />
+
+        <TextView
+            android:id="@+id/appnameabout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/applogo"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_horizontal"
+            android:text="Study WelTec"
+            android:textColor="@color/main_color"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/appnameabout"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="@string/appversion"
+            android:textColor="@color/main_color"
+            android:textSize="10dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/aboutitem"
+        android:id="@+id/stkhld">
+
+    <LinearLayout
+        android:id="@+id/developerabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/developer_img"/>
+
+        <TextView
+            android:id="@+id/developerdata"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:textColor="@color/main_color"
+            android:text="sahilnbasjkasjlkasjlasjkljasklcjalkasnclnavsinvjasnklajskcnasmnasklncasasnclkasncasnclknascasklcnascnasnclkasnclkascansklcnasc asknalkscnasncklnsalcnascnklasnclkasnasnclknaslkcnasnclkasnclasncasnlcknascnascnklasncasjcnsajncjasncjkanscjnsajcnjsancjkasncjnasjkcnsajcnasjncjasncjnsajcnasjncjsancjnsajcansjcnsajcnjsancjknasjcnasjncjasncjasncjasjcnsacnjsancjsancjasncjsancjsancjnasjcnasjcnjcnjcnsajcnjsancjksca" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/managerabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/developerabout"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/manager_img"/>
+
+        <TextView
+            android:id="@+id/managerdata"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:textColor="@color/main_color"
+            android:text="sahilnbasjkasjlkasjlasjkljasklcjalkasnclnavsinvjasnklajskcnasmnasklncasasnclkasncasnclknascasklcnascnasnclkasnclkascansklcnasc asknalkscnasncklnsalcnascnklasnclkasnasnclknaslkcnasnclkasnclasncasnlcknascnascnklasncasjcnsajncjasncjkanscjnsajcnjsancjkasncjnasjkcnsajcnasjncjasncjnsajcnasjncjsancjnsajcansjcnsajcnjsancjknasjcnasjncjasncjasncjasjcnsacnjsancjsancjasncjsancjsancjnasjcnasjcnjcnjcnsajcnjsancjksca" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/testerabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/managerabout"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="100dp"
+            android:background="@mipmap/ic_launcher"
+            android:id="@+id/tester_img"/>
+
+        <TextView
+            android:id="@+id/testerdata"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:textColor="@color/main_color"
+            android:text="sahilnbasjkasjlkasjlasjkljasklcjalkasnclnavsinvjasnklajskcnasmnasklncasasnclkasncasnclknascasklcnascnasnclkasnclkascansklcnasc asknalkscnasncklnsalcnascnklasnclkasnasnclknaslkcnasnclkasnclasncasnlcknascnascnklasncasjcnsajncjasncjkanscjnsajcnjsancjkasncjnasjkcnsajcnasjncjasncjnsajcnasjncjsancjnsajcansjcnsajcnjsancjknasjcnasjncjasncjasncjasjcnsacnjsancjsancjasncjsancjsancjnasjcnasjcnjcnjcnsajcnjsancjksca" />
+
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
+</ScrollView>

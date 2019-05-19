@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "956391544086",
+    "firebase_url": "https://weltec-study-1557914402701.firebaseio.com",
+    "project_id": "weltec-study-1557914402701",
+    "storage_bucket": "weltec-study-1557914402701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956391544086:android:bb417ad50596a212",
+        "android_client_info": {
+          "package_name": "navdrawer.test.com.navigationdrawertest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956391544086-6mkeibnnvmkdetsndp45udh7v75btu6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "navdrawer.test.com.navigationdrawertest",
+            "certificate_hash": "39ec4000e5c072736d1a2c2b51dd72cc97b0232d"
+          }
+        },
+        {
+          "client_id": "956391544086-meg87nbsvgt659ep5t8q00t68n773cqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQRcNlnjA3B-6dHeFFtcZtnVBJGu51b2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956391544086-meg87nbsvgt659ep5t8q00t68n773cqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="navdrawer.test.com.navigationdrawertest">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".others.Global"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_logo"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity android:name=".FirebaseTestActivity"></activity>
+        <activity
+            android:name=".others.InfoviewpagerAdapter"
+            android:label="@string/title_activity_infoviewpager"></activity>
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".ComingsoonActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme1" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCJLSx7mgx5jQmvcMULcwhK1jX3VGK18mE" />
+    </application>
+
+</manifest>
