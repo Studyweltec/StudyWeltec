@@ -5,6 +5,8 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:name=".others.Global"
@@ -12,30 +14,33 @@
         android:icon="@mipmap/ic_app_logo"
         android:largeHeap="true"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme1">
-        <activity android:name=".FirebaseTestActivity"></activity>
-        <activity
-            android:name=".others.InfoviewpagerAdapter"
-            android:label="@string/title_activity_infoviewpager"></activity>
-        <activity android:name=".InfoActivity" />
-        <activity android:name=".ComingsoonActivity" />
+        android:theme="@style/AppTheme">
         <activity
             android:name=".HomeActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme1">
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".student_speak_out.youtube_player_activity"></activity>
+        <activity android:name=".student_speak_out.Student_speak_out4_Activity" />
+        <activity android:name=".student_speak_out.Student_speak_out3_Activity" />
+        <activity android:name=".student_speak_out.Student_speak_out2_Activity" />
+        <activity android:name=".student_speak_out.Student_speak_out1_Activity" />
+        <activity
+            android:name=".others.InfoviewpagerAdapter"
+            android:label="@string/title_activity_infoviewpager" />
+        <activity android:name=".InfoActivity"
+         android:autoRemoveFromRecents="true"/>
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".SplashActivity"
-            android:theme="@style/AppTheme1" />
-
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCJLSx7mgx5jQmvcMULcwhK1jX3VGK18mE" />
+            android:value="AIzaSyCLLdr9bFLr_cfp8PhTrzCT_D13CxPb1Ig" />
     </application>
 
 </manifest>

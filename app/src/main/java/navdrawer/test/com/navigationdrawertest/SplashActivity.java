@@ -49,10 +49,9 @@ public class SplashActivity extends AppCompatActivity {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    SharedPreferences sharedPreferences = getSharedPreferences("login", MODE_PRIVATE);
-                    boolean value = sharedPreferences.getBoolean("value", false);
-                    if (value == true) {
-                        Intent intent = new Intent(SplashActivity.this, InfoActivity.class);
+                    SharedPreferences sharedPreferences = getSharedPreferences("ActivityPREF", Context.MODE_PRIVATE);
+                    if (sharedPreferences.getBoolean("activity_executed",false)) {
+                        Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
                         startActivity(intent);
                     } else {
                         Intent intent = new Intent(SplashActivity.this, InfoActivity.class);

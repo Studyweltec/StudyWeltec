@@ -15,8 +15,6 @@
         android:id="@+id/dept_data"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/main_color"
-        android:text="frstsahilnbasjkasjlkasjlasjkljasklcjalkasnclnavsinvjasnklajskcnasmnasklncasasnclkasncasnclknascasklcnascnasnclkasnclkascansklcnasc asknalkscnasncklnsalcnascnklasnclkasnasnclknaslkcnasnclkasnclasncasnlcknascnascnklasncasjcnsajncjasncj" />
-
+        android:textColor="@color/main_color"/>
 
 </LinearLayout>

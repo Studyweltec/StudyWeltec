@@ -22,7 +22,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textEmailAddress"
                 android:background="@android:color/darker_gray"
-                android:text="sahilkaushal3@gmail.com"
+                android:text="info@weltec.ac.nz"
                 android:visibility="gone"/>
             <TextView
                 android:id="@+id/feedback_comment"

@@ -22,8 +22,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-import navdrawer.test.com.navigationdrawertest.ComingsoonFragment;
+import navdrawer.test.com.navigationdrawertest.AboutActivity;
 import navdrawer.test.com.navigationdrawertest.HomeActivity;
+import navdrawer.test.com.navigationdrawertest.InfoActivity;
 import navdrawer.test.com.navigationdrawertest.R;
 import navdrawer.test.com.navigationdrawertest.others.ExpandableListAdapter;
 import navdrawer.test.com.navigationdrawertest.others.ExpandableListDataPump;
@@ -96,7 +97,7 @@ public class NavigationDrawerFragment extends Fragment {
                 else if (groupPosition == ExpandableListAdapter.Student_speak_out) {
                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace( R.id.container, new ComingsoonFragment(), "gallery" );
+                    fragmentTransaction.replace( R.id.container, new Student_speak_out_Fragment(), "student_speak_out" );
                     fragmentTransaction.commit();
                     mDrawerLayout.closeDrawers();
                     // call some activity here
@@ -112,18 +113,22 @@ public class NavigationDrawerFragment extends Fragment {
                     fragmentTransaction.replace( R.id.container, new Enquiry(), "enquiry" );
                     fragmentTransaction.commit();
                     mDrawerLayout.closeDrawers();
-                } else if (groupPosition == ExpandableListAdapter.Location) {
+                }
+                 else if (groupPosition == ExpandableListAdapter.Location) {
                     FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                     FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                     fragmentTransaction.replace( R.id.container, new GoogelMapsFragment(), "location" );
                     fragmentTransaction.commit();
                     mDrawerLayout.closeDrawers();
                 } else if (groupPosition == ExpandableListAdapter.About) {
-                    FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
-                    FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-                    fragmentTransaction.replace( R.id.container, new AboutFragment(), "about" );
-                    fragmentTransaction.commit();
-                    mDrawerLayout.closeDrawers();
+                    Intent activityChangeIntent = new Intent(getActivity(), AboutActivity.class);
+                    startActivity(activityChangeIntent);
+                    retVal = false;
+                }
+                    else if (groupPosition == ExpandableListAdapter.Info) {
+                        Intent activityChangeIntent = new Intent( getActivity(), InfoActivity.class );
+                        startActivity( activityChangeIntent );
+                        retVal = false;
                 } else if (groupPosition == ExpandableListAdapter.Exit) {
                     getActivity().finish();
                 }

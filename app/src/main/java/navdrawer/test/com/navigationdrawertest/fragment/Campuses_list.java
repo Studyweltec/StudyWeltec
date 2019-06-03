@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -25,13 +24,13 @@ import navdrawer.test.com.navigationdrawertest.others.Global;
  */
 public class Campuses_list extends Fragment {
     ListView listView;
-    List<String> PETONE= new ArrayList();
+   ArrayList<String> PETONE= new ArrayList<>();
+   // List<String> PETONE= new ArrayList();
     List<String> AUCKLAND= new ArrayList();
     List<String> PORIRUA= new ArrayList();
     private Global global;
     private ArrayAdapter adapter;
     private ArrayAdapter listAdapter;
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment

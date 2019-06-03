@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Study WelTec</string>
 
-    <string name="gallerytoolbarTitle">Gallery</string>
     <string name="appversion">Version:1.0.0_PA</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -25,4 +24,17 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_infoviewpager">InfoviewpagerActivity</string>
+    <!--  we need to use video ids instead of video link  -->
+    <string name="slide_1_title">Welcome to WelTec!</string>
+    <string name="slide_1_desc"> WelTec qualifications are future focused, developed alongside industry and provide you with practical skills so you can pursue your career goals.</string>
+
+    <string name="slide_2_title">Student Speak Out</string>
+    <string name="slide_2_desc">Determine WelTec students perceptions of the campus climate and knowledge in the Student Speak Out survey through vides.</string>
+
+    <string name="slide_3_title">Courses</string>
+    <string name="slide_3_desc">WelTec offers a range of qualifications in business, constructions, engineering, hospitality, IT and more. These provide students with work ready skills.</string>
+
+    <string name="slide_4_title">Location</string>
+    <string name="slide_4_desc">Setting up Googl map helps students find and interact with WelTec Campuses locations. Managing them does not have to be hard work.</string>
+
 </resources>

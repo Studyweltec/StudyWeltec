@@ -15,7 +15,7 @@
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="200dp"
             android:layout_marginRight="@dimen/fab_margin"
-            android:src="@drawable/ic_launcher_you_tube"
+            android:src="@drawable/ic_launcher_linkedin"
             android:visibility="invisible"
             app:backgroundTint="#E42B26"/>
 

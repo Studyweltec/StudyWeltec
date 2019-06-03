@@ -9,7 +9,7 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.google.android.gms.games.social.Social;
+
 
 import java.util.HashMap;
 import java.util.List;
@@ -29,8 +29,8 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
     public static int Enquiry = 3;
     public static int Location = 4;
     public static int About = 5;
-    public static int Exit = 6;
-
+    public static int Info = 6;
+    public static int Exit = 7;
 
 
     public static int Petone = 0;
@@ -122,13 +122,15 @@ public class ExpandableListAdapter extends BaseExpandableListAdapter {
         else if (listPosition == Campuses)
             listTitleTextIconView.setImageResource(R.drawable.ic_launcher_list);
         else if (listPosition == Student_speak_out)
-            listTitleTextIconView.setImageResource(R.drawable.ic_launcher_gallery);
+            listTitleTextIconView.setImageResource(R.drawable.ic_launcher_speak);
         else if (listPosition == Enquiry)
             listTitleTextIconView.setImageResource(R.drawable.ic_launcher_feedback);
         else if (listPosition == Location)
             listTitleTextIconView.setImageResource(R.drawable.ic_launcher_map);
         else if (listPosition == About)
-            listTitleTextIconView.setImageResource(R.drawable.ic_launcher_about);
+            listTitleTextIconView.setImageResource(R.drawable.ic_launcher_aboutus);
+        else if (listPosition == Info)
+            listTitleTextIconView.setImageResource(R.drawable.ic_launcher_info);
         else if (listPosition == Exit)
             listTitleTextIconView.setImageResource(R.drawable.ic_launcher_exit);
 

@@ -14,14 +14,15 @@ public class ExpandableListDataPump {
 
         List<String> student_speak_out = new ArrayList<String>();
         List<String> campuses = new ArrayList<String>();
-        campuses.add("PETONE.");
-        campuses.add("AUCKLAND.");
-        campuses.add("PORIRUA.");
+        campuses.add("PETONE");
+        campuses.add("AUCKLAND");
+        campuses.add("PORIRUA");
 
 
         List<String> enquiry = new ArrayList<String>();
         List<String> location = new ArrayList<String>();
         List<String> about = new ArrayList<String>();
+        List<String> info = new ArrayList<String>();
         List<String> exit = new ArrayList<String>();
 
 
@@ -31,6 +32,7 @@ public class ExpandableListDataPump {
         expandableListDetail.put("Enquiry", enquiry);
         expandableListDetail.put("Location", location);
         expandableListDetail.put("About", about);
+        expandableListDetail.put("Info", info);
         expandableListDetail.put("Exit", exit);
 
         return expandableListDetail;
