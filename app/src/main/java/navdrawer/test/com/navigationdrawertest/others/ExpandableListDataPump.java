@@ -31,7 +31,7 @@ public class ExpandableListDataPump {
         expandableListDetail.put("Student Speak Out", student_speak_out);
         expandableListDetail.put("Enquiry", enquiry);
         expandableListDetail.put("Location", location);
-        expandableListDetail.put("About", about);
+        expandableListDetail.put("About Us", about);
         expandableListDetail.put("Info", info);
         expandableListDetail.put("Exit", exit);
 

@@ -13,6 +13,6 @@ public class Student_speak_out4_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_student_speak_out1_);
         WebView myWebView = (WebView) findViewById(R.id.webView);
-        myWebView.loadUrl("https://www.youtube.com/watch?v=En-FJpRBbe8&t=7s");
+        myWebView.loadUrl("https://www.youtube.com/watch?v=5mk896UpcFc");
     }
 }

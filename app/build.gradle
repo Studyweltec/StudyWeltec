@@ -109,7 +109,7 @@ dependencies {
     androidTestImplementation('org.threeten:threetenbp:1.3.3') {
         exclude group: 'com.jakewharton.threetenabp', module: 'threetenabp'
     }
-    implementation project(':Library')
+    implementation project(':library')
     implementation files('libs/YouTubeAndroidPlayerApi.jar')
     implementation 'com.android.support:appcompat-v7:28.0.0-alpha3'
     implementation 'com.android.support:cardview-v7:28.0.0-alpha3'
